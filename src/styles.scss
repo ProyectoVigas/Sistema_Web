@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+
+  
+body {
+    background-color: #ffdd90;
+    background-image: url("./images/degradado.jpg");
+  }
+
+// .wrap{
+// 	width: 800px;
+// 	max-width: 90%;
+// 	margin: 30px auto;
+// }
+ 
+ul.tabs{
+	width: 100%;
+	background: white;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+// .boton {
+//     border: 1px solid #01545f; /*anchura, estilo y color borde*/
+//     padding: 10px; /*espacio alrededor texto*/
+//     background-color: #01545f; /*color botón*/
+//     color: #ffffff; /*color texto*/
+//     text-decoration: none; /*decoración texto*/
+//     text-transform: uppercase; /*capitalización texto*/
+//     font-family: 'Roboto', sans-serif; /*tipografía texto*/
+//     // border-radius: 50px; /*bordes redondos*/
+//  }
+
+ ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+}
+
+.login-btn:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+.register-btn {
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+    }
+
+.register-btn:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+

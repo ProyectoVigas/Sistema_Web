@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Sistema_Web'`, () => {
+  it(`should have as title 'CIV'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Sistema_Web');
+    expect(app.title).toEqual('CIV');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Sistema_Web app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('CIV app is running!');
   });
 });
